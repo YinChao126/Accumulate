@@ -1,0 +1,7 @@
+1.拍照 raspistill -o name.jpg -t 1000
+
+2.拍视频 raspivid -o name.h264 -t 10000(默认5秒，单位是毫秒)
+3.数据流转换： MP4Box -fps 30 -add name.h264 name.mp4
+
+4. 直接利用安装好的软件播放视频，mp4和h.264都可以直接播放
+omxplayer -o hdmi /path/name.mp4

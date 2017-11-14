@@ -1,0 +1,2 @@
+os.system(command)
+例如： os.system('ls -al')
