@@ -1,0 +1,2 @@
+把install.jar以及相应位数的三个文件（compiler.dll，mcc.exe，libmwservices.dll）复制到对应位置替换即可，
+另外把license.lic改为与MATLAB\licenses文件夹下的那个lic文件同名，复制并替换之。
